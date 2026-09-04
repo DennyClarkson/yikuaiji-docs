@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+<title>一塊記私隱説明 · YiKuaiJi</title>
+<meta name="description" content="一塊記使用教學、資料與私隱說明、用戶協議及官方支援聯絡方式。">
+<link rel="alternate" hreflang="zh-Hans" href="privacy.html">
+<link rel="alternate" hreflang="en" href="privacy-en.html">
+<link rel="alternate" hreflang="zh-Hant" href="privacy-zh-Hant.html">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">跳至正文</a>
+<header><a class="brand" href="index-zh-Hant.html">一塊記</a>
+<nav class="languages" aria-label="語言"><a lang="zh-Hans" hreflang="zh-Hans" href="privacy.html">简体中文</a>
+<a lang="en" hreflang="en" href="privacy-en.html">English</a>
+<a lang="zh-Hant" hreflang="zh-Hant" href="privacy-zh-Hant.html" aria-current="true">繁體中文</a></nav>
+<nav aria-label="文件導覽"><a href="index-zh-Hant.html">支援</a>
+<a href="guide-zh-Hant.html">使用教學</a>
+<a href="privacy-zh-Hant.html" aria-current="page">私隱說明</a>
+<a href="terms-zh-Hant.html">用戶協議</a></nav></header>
+<main id="main"><p class="eyebrow">文件與支援</p>
+<h1>一塊記私隱説明</h1>
+<p>繁體中文譯本整理日期：2026-09-05；對應 2026-09-04 簡體中文發布準備稿。各語言版本均待法律覆核，翻譯不改變法定權利。</p>
+<p>修訂日期：2026-09-04。發佈準備稿，依據當前客户端的資料路徑及公開支持渠道編寫。經營者和私隱聯繫人：薛正尧；郵箱：<a href="mailto:yikuaiji_feedback@163.com" rel="noreferrer">yikuaiji_feedback@163.com</a>。計劃首發：中國大陸、中國香港。第三方處理方案、正式生效日期及法律審閲仍待完成；公開本文不表示已經通過法律或商店合規審核。</p><details class="contents" open><summary>本頁目錄</summary><ul><li><a href="#section-1">1. 誰處理資料，以及本應用的邊界</a></li><li><a href="#section-2">2. 本機保存哪些信息</a></li><li><a href="#section-3">3. 相機、照片、文件與本地識別</a></li><li><a href="#section-4">4. WebDAV：加密內容、接收方與可見信息</a></li><li><a href="#section-5">5. 外部模型：發出哪些文字、發給誰</a></li><li><a href="#section-6">6. 其他聯網、匯出與診斷</a></li><li><a href="#section-7">7. 保存多久、如何刪除與撤回</a></li><li><a href="#section-8">8. 跨地區處理與第三方保護</a></li><li><a href="#section-9">9. 你的選擇、未成年人和聯繫</a></li></ul></details><section aria-labelledby="section-1"><h2 id="section-1">1. 誰處理資料，以及本應用的邊界</h2><p>當前版本不要求註冊一塊記帳號，沒有已運營的一塊記官方雲端帳本或訂閲服務。本地資料由安裝應用的設備保存；你主動選用的 WebDAV 服務與外部模型會分別處理相應請求。</p>
+<p>經營者為薛正尧，客服與私隱請求統一通過 <a href="mailto:yikuaiji_feedback@163.com" rel="noreferrer">yikuaiji_feedback@163.com</a> 接收。本應用不因你使用而取得帳目或照片的資料權益；你保有依法享有的資料控制與選擇權，他人原有權利不受影響。不能以“只在本地”“用户自帶服務”或“資料歸用户”替代經營者依法應履行的保護、告知與協助義務。</p></section><section aria-labelledby="section-2"><h2 id="section-2">2. 本機保存哪些信息</h2><p>設備中保存帳本名稱、本位幣、分類、金額、商户、日期、備註、記錄作者&#47;成員標識、同步版本、草稿、識別文字、照片附件及偏好。用途是顯示、編輯、統計、匯出和在你選擇時完成同步或整理。</p>
+<p>API Key、WebDAV 憑據、共享密鑰及預設使用系統安全存儲。普通帳目資料庫、附件和匯出文件不應被當作同等級的額外加密保險箱；請保護設備解鎖方式，避免在共用設備存放敏感內容。系統備份或你選擇的文件位置可能帶來額外副本。</p>
+<p>當前 iOS 版本啓用了應用文件的系統文件共享，應用的文件目錄可能在“文件”或電腦文件共享中可見，其中包含內部資料庫和附件。不要向其他人共享整個應用目錄，也不要在外部直接修改或刪除內部文件。正式發佈前將重新評估該存儲與匯出方案。</p>
+<p>本客户端未接入廣告追蹤或開發者運營的行為分析服務。商店、操作系統及測試分發可能按其自身設置處理購買、安裝或崩潰信息；不能由此宣稱所有環境都“零資料收集”。</p></section><section aria-labelledby="section-3"><h2 id="section-3">3. 相機、照片、文件與本地識別</h2><p>拍照或掃碼時使用相機；選取圖片和匯入&#47;匯出時調用系統選擇器或文件訪問能力，具體權限由平台決定。僅為所選功能使用相應內容，拒絕後仍可手動記帳。可在設備系統設置撤銷權限。</p>
+<p>iOS&#47;macOS 使用系統 Vision；Windows 使用設備端 OCR；Android 源碼使用 ML Kit，實際發佈前須另行核對其打包和初始化行為。可用時的 Apple 系統模型用於設備端整理。不提供因安裝應用就默認把照片發給外部模型的功能。</p>
+<p>圖片可能含有 EXIF 等拍攝元資料；應用目前不承諾自動清除全部元資料。敏感照片在匯入、共享前請自行檢查，尤其不要包含無關人員、證件或金融帳户信息。</p></section><section aria-labelledby="section-4"><h2 id="section-4">4. WebDAV：加密內容、接收方與可見信息</h2><p>只有配置共享並執行手動&#47;快捷同步，或主動開啓自動同步條件後，才向你指定的 WebDAV 地址傳輸共享操作。加密內容可能包括帳本、分類、帳目、成員信息及刪除操作；草稿不是正式同步記錄。</p>
+<p>照片同步按設備和帳本默認關閉。開啓後，關聯的小票&#47;貨品照片以共享密鑰加密傳輸，遠端缺圖可跳過並之後重試。帳目及照片使用 AES-256-GCM 加密；存儲服務仍可見帳號認證、IP 地址、請求時間、目錄標識、文件大小等網絡&#47;存儲信息。</p>
+<p>獲得共享密鑰且有目錄訪問權限的成員能看到解密內容。普通邀請碼含密鑰；快速邀請還含加密保護的地址、帳號及密碼。複製會把內容放入系統剪貼板，二維碼可被拍攝保存，某些系統還會同步剪貼板。請按憑據保護，使用後按需清空剪貼板。</p>
+<p>保存位置、伺服器日誌、歷史版本與保留時間由你所選服務及其帳號設置決定；其運營者不是由本應用統一指定。選擇服務前應核實其私隱保護措施，避免把私人網盤完整權限交給成員。</p></section><section aria-labelledby="section-5"><h2 id="section-5">5. 外部模型：發出哪些文字、發給誰</h2><p>每次單條請求或一次批量請求前，會顯示你當前配置的域名與模型並徵求確認。發送 OCR 文字塊和編號、條碼&#47;二維碼候選內容、整理提示詞及模型參數；不會附帶原始圖片、設備文件路徑或文字座標。自定義提示詞中你主動寫入的內容也會發送。</p>
+<p>API Key 通過認證請求標頭發送給你配置的服務。服務還會收到 IP 地址、請求時間、模型用量等網絡信息。獲取模型列表和測試連接只請求模型列表，不發送真實小票，但同樣包含認證信息。</p>
+<p>例如選擇 DeepSeek 官方接口時，請求發往 api.deepseek.com；自定義域名時接收方是該域名對應的服務，不因下拉框選擇 DeepSeek 就自動保證是其官方站點。示例不構成合作或保證。</p>
+<p>識別文字可能包括姓名、聯繫方式、消費地點、帳號或其他敏感內容；“只發文字”不等於匿名。應先核實服務的私隱政策、保存地區、保留期限、訓練用途和刪除渠道。不清楚這些條件時請使用本地功能，不要發送敏感信息。應用不能保證任意用户自配服務均已通過審查。</p></section><section aria-labelledby="section-6"><h2 id="section-6">6. 其他聯網、匯出與診斷</h2><p>自動匯率會訪問歐洲中央銀行（ECB）的公開匯率接口，默認自動模式可能在前台聯網更新；它不發送你的帳目金額、照片或成員名單，但資料來源服務會收到普通網絡請求信息。可在匯率設置切換手動模式以停止該自動獲取。</p>
+<p>JSON&#47;CSV 匯出在所選位置生成可讀文件，未經額外加密，不打包照片或完整應用配置。你選的網盤文件位置可能自動上傳匯出文件，不受 WebDAV 照片開關控制。</p>
+<p>開發者模式默認關閉；主動開啓後，最近的外部模型診斷會話保存在應用內存中，可能含識別文字、提示詞、模型回應和報錯。關閉後清空這些會話，不自動上傳給開發者。複製診斷或主動提交反饋時請先刪去敏感內容；隱去密鑰不等於已匿名化消費信息。</p>
+<p>如果你主動發送支持郵件，經營者會收到你的郵件地址、郵件內容及主動附帶的文件，用於回覆、排錯和處理權利請求，不用於廣告或訓練。收件使用網易 163 郵箱，郵件服務商也會處理郵件傳輸、保存及相關網絡信息。請僅提交必要的脱敏資料；不要發送完整帳本、小票、密鑰、密碼或身份證件。僅在處理請求所必需期間保留，目的完成後刪除或匿名化；因法定義務確需保留的，限制用途並在期限屆滿後處理。郵件服務商的備份及日誌按其政策另行處理。</p>
+<p>公開文件和支持網頁使用 GitHub Pages 託管。網站不設置帳號、付款、帳本上傳表單、開發者自建訪問統計或廣告追蹤，也不讀取應用內資料；訪問時 GitHub 仍可能為安全與服務運行處理 IP 地址等訪問日誌，不能稱為“完全不收集任何資料”。GitHub 私隱説明：<a href="https:&#47;&#47;docs.github.com&#47;en&#47;site-policy&#47;privacy-policies&#47;github-general-privacy-statement" rel="noreferrer">https:&#47;&#47;docs.github.com&#47;en&#47;site-policy&#47;privacy-policies&#47;github-general-privacy-statement</a> 。發送郵件或訪問第三方鏈接會進入相應服務。</p></section><section aria-labelledby="section-7"><h2 id="section-7">7. 保存多久、如何刪除與撤回</h2><p>本地正式記錄通常保存至你刪除或清理應用資料；草稿保留至確認、刪除或清理。回收站當前保留期為 30 天，過期項目可能在應用執行清理時永久刪除，不保證第 30 天即刻從每個設備和伺服器刪除。</p>
+<p>單條共享帳目的永久刪除會嘗試清理相關遠端歷史操作和照片，並保留最小刪除標記用於阻止離線設備復活舊資料；操作需聯網及相應權限。整本共享帳本尚不支持一鍵遠程清除。封存、斷開、關閉照片同步和卸載都不是遠端刪除。</p>
+<p>可隨時停止自動&#47;照片同步、斷開 WebDAV、移除不需要的 WebDAV 預設或模型配置，在服務商處撤銷密鑰&#47;應用密碼，在系統設置撤回權限。停用不追溯撤銷已完成的處理；已經開始的請求仍可能被第三方完成或計費。</p>
+<p>要清除遠端整本資料，應與成員協調、斷開所有相關設備，核實準確目錄後由目錄所有者在服務商處刪除內容及歷史版本，並撤銷訪問。第三方日誌、系統備份、匯出文件和其他成員副本須分別處理。開發者無法承諾替你抹除所有獨立主體保管的副本。</p></section><section aria-labelledby="section-8"><h2 id="section-8">8. 跨地區處理與第三方保護</h2><p>本地文件位於設備及用户選擇的備份位置；WebDAV 和模型資料可能被處理在服務商公佈的地區，未必與你或設備所在地區相同。HTTPS 和內容加密不是資料不跨境的保證。</p>
+<p>涉及個人信息向其他主體提供、敏感個人信息或跨境處理時，須根據適用法律明確接收方、用途、保護措施和行使權利方式，並在要求時取得單獨同意等，不以本説明的一般性告知替代這些要求。正式發佈前需核實默認&#47;示例服務及可配置服務範圍的合規方案；本稿不保證任意自定義服務均適用。</p></section><section aria-labelledby="section-9"><h2 id="section-9">9. 你的選擇、未成年人和聯繫</h2><p>你可在應用查看、更正、匯出及刪除本地記錄，按前述步驟停止可選外發。因未開通官方帳號，當前沒有一塊記帳號註銷流程；停用第三方服務需到相應服務辦理。</p>
+<p>涉及兒童或其他人的信息，請先取得必要授權並遵守相關保護規定。不要將本應用用於未經同意收集、公開他人敏感資料。不能確認合法性時請不要上傳或共享。</p>
+<p>如需協助，請聯繫薛正尧：<a href="mailto:yikuaiji_feedback@163.com" rel="noreferrer">yikuaiji_feedback@163.com</a>，主題可寫“一塊記私隱請求”，説明要查閲、更正、刪除的資料或其他訴求。經營者將按適用法律的期限處理；必要時只要求與請求相稱的最少核驗資料，不會要求你交出帳本解密密鑰或帳號密碼。經營者無法直接讀取或刪除未持有的本地、第三方及成員副本時，會説明邊界並提供可行指引，不能據此拒絕自身依法應處理的請求。你仍可依法向相關監管機構投訴或尋求其他救濟。</p>
+<p>資料用途或服務有重大變化時，應更新説明並在必要時重新徵求同意。正式版本生效日期及地區法律複核仍待完成，當前説明不是已獲合規認證或全面免責的證明。</p></section>
+</main>
+<footer>© 2026 薛正尧 · <a href="mailto:yikuaiji_feedback@163.com">yikuaiji_feedback@163.com</a>
+<p>本站僅提供文件與支援，不提供帳號、付款或帳本上傳。</p></footer>
+</body></html>
